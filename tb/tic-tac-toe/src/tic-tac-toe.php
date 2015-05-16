@@ -5,7 +5,7 @@ class TicTacToe
     /**
     * Run a game
     * 
-    * @return string
+    * @return void
     */
     public function runGame()
     {

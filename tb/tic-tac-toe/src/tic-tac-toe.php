@@ -246,22 +246,22 @@ class TicTacToe
     * The contents of this method could be replaced with the following array:
     * 
     * 
-       $winningLines = array(
-          // horizontal
-            array('00', '01', '02'),
-            array('10', '11', '12'),
-            array('20', '21', '22'),
-
-            // vertical
-            array('00', '10', '20'),
-            array('01', '11', '21'),
-            array('02', '12', '22'),
-            
-            // diagonal
-            array('00', '11', '22'),
-            array('20', '11', '02'),
-        );
-    
+    *   $winningLines = array(
+    *      // horizontal
+    *        array('00', '01', '02'),
+    *        array('10', '11', '12'),
+    *        array('20', '21', '22'),
+	*
+    *        // vertical
+    *        array('00', '10', '20'),
+    *        array('01', '11', '21'),
+    *        array('02', '12', '22'),
+    *        
+    *        // diagonal
+    *        array('00', '11', '22'),
+    *        array('20', '11', '02'),
+    *    );
+    *
     * Hoever, generating lines automatically is:
     * a) a nice exercise
     * b) would make supporting bigger than 3x3 boards easier
